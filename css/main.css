@@ -1,0 +1,204 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #c0aff3;
+    font-size: 18px; 
+}
+header{
+    background-image: url(../imagenes/back.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+    height: 100 vh;
+}
+#menu{
+    padding: 50px 0;
+}
+header #menu ul li{
+    display: inline-block;
+    padding: 10px;
+    vertical-align: middle;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: x-large
+}
+a:hover{
+    color: deeppink;
+    text-decoration: underline;
+}
+#logo{
+    margin-right: 40%;
+    margin-left: 100px ;
+}
+/* ****************************** */
+main{
+    margin: 0 auto;
+    width: 1600px;
+}
+main div{
+    display: inline-block;
+    vertical-align: middle;
+}
+main .text h1{
+    font-size: 100px;
+}
+main .text p{
+    padding: 20px 0;
+    font-size: 30px;
+}
+button{
+    background-color: #3ddbe7;
+    border: 0;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    font-size: 24px;
+    padding: 24px 25px;
+    text-align: center;
+    margin: auto;
+    display: flex;
+}
+button:hover{
+    background-color: rgb(251, 150, 255) ;
+    color: white;
+}
+main .image{
+    text-align: right;
+    width: 700px;
+}
+.image img.rounded-corners{
+    border-radius: 50px;
+}
+
+/* Terminó la seccción de header*/
+#features .layout{
+    width: 1900px;
+    display: inline-block;
+    vertical-align: middle;
+    color: white;
+    height: 100 vh;
+}
+.layout div{
+    margin: 10px;
+    width: 800px;
+    vertical-align: middle;
+    display: inline-block;
+}
+.layout h3{
+    font-size: 48px;
+    padding: 25px 0;
+    line-height: 32px;
+    text-align: center;
+}
+.layout p{
+    padding: 25px 0;
+    line-height: 32px;
+    font-weight: bold;
+}
+.layout-left{
+    width: 500px;
+}
+.layout-left .image{
+    width: 400px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+}
+.layout-left .image img.rounded-corners{
+    border-radius: 30px;
+}
+.layout-right{
+    width: 500px;
+}
+.layout-right .image {
+    width: 400px;
+    text-align: center;
+}
+.layout-right .image img.rounded-corners{
+    border-radius: 30px;
+}
+
+.layout-button .image {
+    width: 800px;
+    text-align: center;
+    vertical-align: middle;
+}
+.layout-button .image img.rounded-corners{
+    border-radius: 30px;
+}
+.rudolf{
+    width:1800px;
+    color: white;
+    display: inline-block;
+}
+.rudolf .image img{
+    width:300px;
+    margin-left: 50px ;
+}
+
+.tia{
+    width:1800px;
+    color: white;
+    display: inline-block;
+}
+.tia .image img{
+    width:300px;
+    margin-left: 50px;
+}
+
+
+#familia{
+    width: 1800px;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    font-style:unset;
+    font-family:'Courier New', Courier, monospace;
+    letter-spacing: 10px;
+    font-size: x-large;
+}
+#familia.text{
+    width: 1800;
+    text-align: center;
+    color:white;
+}
+#familia.image{
+    text-align: center;
+    width: 1500px;
+}
+#cancion{
+    text-align: center;
+    color: white;
+    font-style:unset;
+    font-family:'Courier New', Courier, monospace;
+    letter-spacing: 10px;
+    font-size: x-large;
+}
+#amor{
+    text-align: center;
+    color: white;
+    font-style:unset;
+    font-family:'Courier New', Courier, monospace;
+    letter-spacing: 10px;
+    font-size: x-large;
+}
+iframe{
+    background-image: url(../blanco.jpg);
+    width: 1000px;
+    height: 600px;
+    margin: 20px 400px;
+}
+footer{
+    color: white;
+    height: 800px ;
+    width: 1800;
+    text-align: center;
+    margin: 200px 0px;
+    vertical-align: middle;
+    display: inline-block;
+}
